@@ -1,0 +1,20 @@
+{
+  "name": "strapi-provider-upload-bunnystorage",
+  "version": "0.0.1",
+  "maintainers": [
+    "codex.agency"
+  ],
+  "description": "bunnycdn upload provider for strapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Codex Agency",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "strapi": {
+    "isProvider": true
+  }
+}
