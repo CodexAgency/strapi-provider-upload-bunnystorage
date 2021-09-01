@@ -1,10 +1,10 @@
 {
   "name": "strapi-provider-upload-bunnystorage",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "maintainers": [
     "codex.agency"
   ],
-  "description": "bunnycdn upload provider for strapi",
+  "description": "bunnystorage is provider for strapi, upload files to storage zone and upload video to stream service",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
