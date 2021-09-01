@@ -1,7 +1,5 @@
 module.exports = ({ env }) => ({
-  
   //...
-  
   upload: {
     provider: 'bunnystorage',
     providerOptions: {
@@ -15,7 +13,5 @@ module.exports = ({ env }) => ({
       videostreamCollectionId: env('BUNNYSTORAGE_VIDEOSTREAM_COLLECTION_ID', null),
     }
   },
-  
   //...
-  
 });
