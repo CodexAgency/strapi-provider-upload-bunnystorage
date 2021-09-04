@@ -20,5 +20,5 @@
   },
   "strapi": {
     "isProvider": true
-  },
+  }
 }
