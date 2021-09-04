@@ -40,7 +40,7 @@ module.exports = {
               },)
               .then(function (response) {
                 if (response.data.HttpCode === 201) {
-                  file.url = `/${config.pullZone}/${file.hash}${file.ext}`;
+                  file.url = config.storageFolder != null ? `/${config.storageFolder}/${file.hash}${file.ext}` : `/${file.hash}${file.ext}`;
                   resolve();
                 }
               })
