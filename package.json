@@ -5,6 +5,10 @@
     "codex.agency"
   ],
   "description": "bunnystorage is provider for strapi, upload files to storage zone and upload video to stream service",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodexAgency/strapi-provider-upload-bunnystorage"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +20,5 @@
   },
   "strapi": {
     "isProvider": true
-  }
+  },
 }
